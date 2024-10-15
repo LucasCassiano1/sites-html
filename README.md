@@ -1,8 +1,8 @@
-# sites-html
-Alguns sites desevolvidos utilizando HTML e css.
+# Sites desenvolvidos utilizando HTML e CSS
 
-Projeto android:
-https://lucascassiano1.github.io/sites-html/Projeto-android/
+Aqui estão alguns projetos desenvolvidos por mim:
 
-Projeto cordel:
-https://lucascassiano1.github.io/sites-html/Projeto-cordel/
+- [Projeto Android](https://lucascassiano1.github.io/sites-html/Projeto-android/)
+- [Projeto Cordel](https://lucascassiano1.github.io/sites-html/Projeto-cordel/)
+- [Projeto Login](https://lucascassiano1.github.io/sites-html/Projeto-login/)
+- [Projeto Redes Sociais](https://lucascassiano1.github.io/sites-html/Projeto-redes_sociais/)

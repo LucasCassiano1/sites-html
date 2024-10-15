@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+/*
+.color1 {  rgb(61, 31, 190 };
+.color2 { #23145b };
+.color3 { #09456c };
+.color4 { #026f6e };
+.color5 { #1ca39e };
+*/
+
+*{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    background-color: rgb(61, 31, 190);
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+
+
+    background-color: white;
+    width: 250px;
+    height: 515px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452) ;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+}
+
+section#login > div#imagem{
+    display: block;
+    background: rgb(61, 31, 190) url(../imagens/Imagem_Predio.jpg) no-repeat;
+    height: 200px;
+    background-size: cover;
+    background-position: bottom right;}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom:10px;
+}
+
+div#formulario > p{
+    font-size: 0.8em;
+    margin: 5px 0px;
+}
+ 
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    margin: auto;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+    background-color:  rgb(102, 102, 102);
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    margin: auto;
+    padding-top: 5px;
+
+    width: 100%;
+    height: 40px;
+
+    border: 1px solid black;
+    text-decoration: none;
+    padding-top: 5px;
+    border: none;
+    margin-top: 5px;
+}
+
+form > a.botao:hover{
+    font-size: 0.8em;
+}
+
+form > a.botao > i{
+    font-size: 0.8em;
+}
+
+form > div.campo{
+    background-color: rgb(189, 189, 189);
+
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: 40px;
+    border-radius: 8px;
+    margin: 5px 0px;
+
+    border: 2px solid black;
+
+}
+
+div.campo > label{
+    display: none;
+}
+
+div.campo > span{
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    transform: translateY(-4px);
+}
+
+div.campo > input{
+
+    background-color: rgb(152, 143, 189);
+    font-size: 1em;
+    width: calc(100% - 45px);
+
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    transform: translateY(-12px);
+}
+
+div.campo > input:focus-within{
+    background-color: white;
+}
